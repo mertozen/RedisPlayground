@@ -1,3 +1,3 @@
 # Redis Commands
-set student "Anna"
-get student
+* set student "Anna"
+* get student
