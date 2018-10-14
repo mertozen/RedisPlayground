@@ -210,6 +210,20 @@ QUEUED
 1) (integer) 13
 2) OK
 
+* subscribe weather
+* psubscribe weath*
+* publish weather "welcome to listeners"
+
+* auth 
+* config set requirepass jordan
+OK
+* set mykey value1
+(error) NOAUTH Authentication required.
+* auth jordan
+OK
+* set mykey value1
+OK
+
 
 
 
